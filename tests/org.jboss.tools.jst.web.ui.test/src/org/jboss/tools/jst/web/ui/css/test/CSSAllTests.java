@@ -37,7 +37,7 @@ public class CSSAllTests {
 		
 		/* yradtsevich: Commented because it is randomly failing https://issues.jboss.org/browse/JBIDE-12656.
 		 * Please uncomment when JBIDE-4791 will be fixed. */
-		// suite.addTestSuite(SelectionLosingByPropertySheet_JBIDE4791.class);
+		 suite.addTestSuite(SelectionLosingByPropertySheet_JBIDE4791.class);
 		
 		suite.addTestSuite(ExtendingCSSViewTest_JBIDE4850.class);
 		suite.addTestSuite(NotCompletedCSS_JBIDE4677.class);
